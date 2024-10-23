@@ -1,0 +1,14 @@
+Taste-table loyihasi:    
+
+Oraliq-saralash imtihonida barcha tinglovchilarga "Restoranlar uchun ko'p tilli online menu va stol bronlash tizimi" uchun dasturning backend qismini yozish vazifasi beriladi. Loyiha NestJS frameworkida, Postgres ma'lumotlar bazasida Sequileze ORMda bajarilishi kerak. Loyihada albatta ADMIN, MANAGER va CLIENTni ro'yxatdan o'tkazish (SIGNUP, SIGNIN, SIGNOUT), ACCESS va REFRESH tokenlar, COOKIEga yozish va o'qish, endpointlarga GUARDIar orqali murojaat qilish, EMAIL orqali shaxsni tasdiqlash qismlari bo'lishi shart:
+
+1. DRAWSQLda ma'lumotlar bazasini loyihalashtirish (Admins, Managers, Clients, Restorans, Tables, Reservations, Foods, FoodCategories, Payments va boshqalar) - 5 ball;
+2. Barcha jadvallar uchun CRUD yozish - 25 ball;
+3. Jadvallar uchun validation yozish - 5 ball;
+4. SWAGGER yozish - 5 ball
+5. Admin, Manager va Client uchun Authentication yozish (Register/sign up, Login/sign in, Logout/sign out, Refresh Token) - 25 ball;
+6. EMAIL orqali Clientni faollashtirish - 5 ball;
+7. Bot orqali Maganerni faollashtirish - 5
+8. Admin, Client va Manager uchun Authorization yozish (Admin police, Creator police, Client police, Manager police). Barcha endpointlarga to'g'ri guard qo'yish - 15 ball;
+9. ERROR HANDLING - 5 ball;
+10. LOGGER yozish (winston) - 5 ball.
